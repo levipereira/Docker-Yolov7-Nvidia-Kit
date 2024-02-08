@@ -1,6 +1,6 @@
 # Building Docker Image for NVIDIA PyTorch Environment with TensorRT / TensorRT Engine Explorer and YOLOv7
 
-This Dockerfile sets up an environment for running NVIDIA PyTorch applications, focusing on training YOLOv7 models, including quantization and profiling for achieving optimal performance with minimal accuracy loss.
+This Repo sets up an environment for running NVIDIA PyTorch applications, focusing on training YOLOv7 models, including quantization and profiling for achieving optimal performance with minimal accuracy loss.
 It deploys [YOLOv7](https://github.com/levipereira/yolov7.git) with [YOLO Quantization-Aware Training (QAT)](https://github.com/levipereira/yolo_deepstream.git) patched. It also installs the [TensorRT Engine Explorer (TREx)](https://developer.nvidia.com/blog/exploring-tensorrt-engines-with-trex/), which is a Python library and a set of Jupyter notebooks for exploring a TensorRT engine plan and its associated inference profiling data.
 
 
