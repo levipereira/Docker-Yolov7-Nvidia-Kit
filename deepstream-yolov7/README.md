@@ -3,6 +3,9 @@
 This repo provides a set of instructions for building a Docker image tailored for deploying a Deepstream application with support for YOLOv7 model inference served by Triton Server. It outlines the steps required to set up the environment and install necessary dependencies.
 
 
+This repository build and install the sample app [deepstream-yolov7-triton-server-rtsp-out](https://github.com/levipereira/deepstream-yolov7-triton-server-rtsp-out)
+
+
 ### 1. Deploying the Docker Image 
 
 To deploy the Docker image for Deepstream with YOLOv7 model support served by Triton Server, follow these steps:
