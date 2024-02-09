@@ -8,6 +8,7 @@ This Repo use exported Yolov7 Models ONNX to Generate TensorRT Engine.
 
 Users can either build ONNX files themselves  or simply utilize the [start-container-triton-server.sh](start-container-triton-server.sh) script to initiate the container and use [start-triton-server.sh](start-triton-server.sh) to download the models, generate the TRT engine, and start the Triton Server.
 
+This repository is a continuation of [philipp-schmidt](https://github.com/WongKinYiu/yolov7/commits?author=philipp-schmidt) work in the repository https://github.com/WongKinYiu/yolov7/tree/main/deploy/triton-inference-server.  
 
 
 ## Exporting from PyTorch (YOLOv7 FP16) to ONNX With Efficient NMS plugin
