@@ -68,7 +68,7 @@ Note: This script must be executed on the host operating system.
 
 - Model exported from PyTorch to ONNX
 
-This script automatically download Yolov7 ONNX models from https://github.com/levipereira/Docker-Yolov7-Nvidia-Kit/releases/tag/v1.0
+This script `start-triton-server.sh` automatically download Yolov7 ONNX models from https://github.com/levipereira/Docker-Yolov7-Nvidia-Kit/releases/tag/v1.0
 
 ### Usage Script (start-triton-server.sh) :
 
