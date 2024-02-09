@@ -68,11 +68,13 @@ Note: This script must be executed on the host operating system.
 
 - Model exported from PyTorch to ONNX
 
+This script automatically download Yolov7 ONNX models from https://github.com/levipereira/Docker-Yolov7-Nvidia-Kit/releases/tag/v1.0
+
 ### Usage Script (start-triton-server.sh) :
 
 ``` bash
  Usage:
-bash ./convert_and_start_triton.sh <max_batch_size> <opt_batch_size> [--force-build]
+bash ./start-triton-server.sh  <max_batch_size> <opt_batch_size> [--force-build]
 
 # - max_batch_size: Maximum batch size for TensorRT engines.
 # - opt_batch_size: Optimal batch size for TensorRT engines.
